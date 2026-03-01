@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>希塗装の公式ホームページ</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p class="topbar__msg">塗装工事・各種リフォームのことならお気軽にご相談ください（ダミー）</p>
+      <a class="topbar__tel" href="#">お客様専用ダイヤル <strong>090-9891-1089</strong><span> 9:00-20:00 年中無休</span></a>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="ホームへ">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <span class="brand__name">希塗装</span>
+          <span class="brand__sub">塗装工事・各種リフォーム</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="グローバルナビ">
+        <a href="#service">サービス</a>
+        <a href="#works">施工事例</a>
+        <a href="#features">こだわり</a>
+        <a href="#reviews">口コミ</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav__cta" href="#contact">無料相談</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="メインビジュアル">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="hero__badge">地域密着 / 相談無料 / しつこい営業なし（ダミー）</p>
+        <h1 class="hero__title">
+          塗装工事・各種リフォームで<br />
+          “安心”が続く住まいへ
+        </h1>
+        <p class="hero__lead">
+          現地調査〜見積もりまで無料。状態に合わせて最適な提案を行います。
+          ここに実績・強みの文章が入ります（ダミー）。
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contact">30秒で無料相談（ダミー）</a>
+          <a class="btn btn--ghost" href="#works">施工事例を見る</a>
+        </div>
+
+        <dl class="hero__stats" aria-label="実績ダミー">
+          <div><dt>累計</dt><dd>5,000<span>件</span></dd></div>
+          <div><dt>満足度</dt><dd>99<span>%</span></dd></div>
+          <div><dt>保証</dt><dd>最長10<span>年</span></dd></div>
+        </dl>
+      </div>
+
+      <aside class="hero__side" aria-label="クイック相談フォーム（ダミー）">
+        <div class="card card--form">
+          <h2 class="card__title">カンタン30秒お申し込み</h2>
+          <p class="card__desc">必要最低限の項目だけ（ダミー）。</p>
+
+          <form action="#" method="post" class="form">
+            <label class="field">
+              <span>ご相談内容</span>
+              <select>
+                <option>外壁・屋根の無料診断</option>
+                <option>雨漏り・防水の相談</option>
+                <option>外構・エクステリア</option>
+                <option>その他</option>
+              </select>
+            </label>
+
+            <div class="form__row">
+              <label class="field">
+                <span>お名前</span>
+                <input type="text" placeholder="山田 太郎（ダミー）" />
+              </label>
+              <label class="field">
+                <span>電話</span>
+                <input type="tel" placeholder="090-0000-0000（ダミー）" />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>メール</span>
+              <input type="email" placeholder="example@example.com（ダミー）" />
+            </label>
+
+            <button class="btn btn--primary btn--block" type="button">
+              無料で相談する（ダミー）
+            </button>
+
+            <p class="form__note">
+              ※送信は行いません。デモ用の見た目だけです。
+            </p>
+          </form>
+        </div>
+
+        <div class="card card--mini">
+          <div class="mini">
+            <div class="mini__icon" aria-hidden="true"></div>
+            <div class="mini__text">
+              <p class="mini__title">電話で相談（ダミー）</p>
+              <p class="mini__value">090-9891-1089</p>
+              <p class="mini__sub">受付 9:00-20:00</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Trust badges -->
+  <section class="strip">
+    <div class="container strip__inner">
+      <div class="badge">
+        <div class="ph ph--logo" aria-hidden="true"></div>
+        <p>表彰実績多数（ダミー）</p>
+      </div>
+      <div class="badge">
+        <div class="ph ph--logo" aria-hidden="true"></div>
+        <p>診断レポート提出（ダミー）</p>
+      </div>
+      <div class="badge">
+        <div class="ph ph--logo" aria-hidden="true"></div>
+        <p>施工後点検サポート（ダミー）</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service -->
+  <main>
+    <section class="section" id="service">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">サービス</h2>
+          <p class="section__lead">外壁・屋根・防水など、まとめて相談できる（ダミー）。</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <div class="ph ph--thumb" aria-hidden="true"></div>
+            <h3>外壁塗装</h3>
+            <p>劣化状態に合わせた下地処理と塗装工程（ダミー）。</p>
+            <a class="link" href="#contact">相談する →</a>
+          </article>
+
+          <article class="card">
+            <div class="ph ph--thumb" aria-hidden="true"></div>
+            <h3>屋根リフォーム</h3>
+            <p>カバー工法・葺き替え・補修など（ダミー）。</p>
+            <a class="link" href="#contact">相談する →</a>
+          </article>
+
+          <article class="card">
+            <div class="ph ph--thumb" aria-hidden="true"></div>
+            <h3>防水・雨漏り</h3>
+            <p>原因調査→対策→再発防止まで（ダミー）。</p>
+            <a class="link" href="#contact">相談する →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="section section--alt" id="works">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">注目の施工事例（ダミー）</h2>
+          <p class="section__lead">カード型で事例を見せる構成。</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="work">
+            <div class="ph ph--work" aria-hidden="true"></div>
+            <div class="work__body">
+              <p class="work__tag">外壁塗装</p>
+              <h3 class="work__title">2階建て / 100㎡ / 明るい配色</h3>
+              <dl class="work__meta">
+                <div><dt>工期</dt><dd>10日</dd></div>
+                <div><dt>地域</dt><dd>〇〇市</dd></div>
+                <div><dt>費用</dt><dd>¥xxx万</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="ph ph--work" aria-hidden="true"></div>
+            <div class="work__body">
+              <p class="work__tag">屋根</p>
+              <h3 class="work__title">カバー工法 / 断熱対策</h3>
+              <dl class="work__meta">
+                <div><dt>工期</dt><dd>7日</dd></div>
+                <div><dt>地域</dt><dd>△△町</dd></div>
+                <div><dt>費用</dt><dd>¥xxx万</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="ph ph--work" aria-hidden="true"></div>
+            <div class="work__body">
+              <p class="work__tag">防水</p>
+              <h3 class="work__title">ベランダ防水 / 雨漏り対策</h3>
+              <dl class="work__meta">
+                <div><dt>工期</dt><dd>3日</dd></div>
+                <div><dt>地域</dt><dd>□□区</dd></div>
+                <div><dt>費用</dt><dd>¥xx万</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">5つのこだわり（ダミー）</h2>
+          <p class="section__lead">番号付き＋画像＋説明の並び（雰囲気寄せ）。</p>
+        </header>
+
+        <div class="feature">
+          <div class="feature__num">01</div>
+          <div class="feature__content">
+            <h3>有資格者が診断して提案</h3>
+            <p>写真・数値・劣化箇所の説明をわかりやすく（ダミー）。</p>
+          </div>
+          <div class="ph ph--feature" aria-hidden="true"></div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__num">02</div>
+          <div class="feature__content">
+            <h3>下地処理を徹底</h3>
+            <p>長持ちのために見えない工程を大切に（ダミー）。</p>
+          </div>
+          <div class="ph ph--feature" aria-hidden="true"></div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__num">03</div>
+          <div class="feature__content">
+            <h3>カラー提案・シミュレーション</h3>
+            <p>納得いくまで確認。追加費用なし（ダミー）。</p>
+          </div>
+          <div class="ph ph--feature" aria-hidden="true"></div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__num">04</div>
+          <div class="feature__content">
+            <h3>工程ごとの報告</h3>
+            <p>「いま何をしているか」がわかる安心感（ダミー）。</p>
+          </div>
+          <div class="ph ph--feature" aria-hidden="true"></div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__num">05</div>
+          <div class="feature__content">
+            <h3>最長10年保証＆点検</h3>
+            <p>施工後こそ本当のお付き合い（ダミー）。</p>
+          </div>
+          <div class="ph ph--feature" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">口コミ（ダミー）</h2>
+          <p class="section__lead">評価ブロック＋レビュー一覧の見せ方。</p>
+        </header>
+
+        <div class="reviewTop">
+          <div class="reviewTop__score">
+            <p class="reviewTop__label">総合評価（ダミー）</p>
+            <p class="reviewTop__value">4.9</p>
+            <p class="reviewTop__stars" aria-label="星評価">★★★★★</p>
+            <p class="reviewTop__meta">レビュー 55件（ダミー）</p>
+          </div>
+          <div class="reviewTop__note">
+            <p>実際の口コミデータは未連携。ここはデザイン用のダミー枠です。</p>
+          </div>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <p class="quote">“説明が丁寧で安心できた（ダミー）”</p>
+            <p class="small">— お客様A / 2026.01（ダミー）</p>
+          </article>
+          <article class="card">
+            <p class="quote">“仕上がりが想像以上（ダミー）”</p>
+            <p class="small">— お客様B / 2026.02（ダミー）</p>
+          </article>
+          <article class="card">
+            <p class="quote">“点検も来てくれて助かる（ダミー）”</p>
+            <p class="small">— お客様C / 2026.03（ダミー）</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">よくある質問（ダミー）</h2>
+          <p class="section__lead">HTMLだけで開閉できる &lt;details&gt; を使用。</p>
+        </header>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>見積もりだけでも大丈夫？</summary>
+            <p>もちろんOK。診断・見積もりは無料（ダミー）。</p>
+          </details>
+          <details class="faq__item">
+            <summary>工事中の生活はどうなる？</summary>
+            <p>工程説明・騒音配慮などの説明が入ります（ダミー）。</p>
+          </details>
+          <details class="faq__item">
+            <summary>保証やアフターは？</summary>
+            <p>最長10年保証・定期点検の案内（ダミー）。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Access -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">無料相談 / アクセス（ダミー）</h2>
+          <p class="section__lead">地図・住所・導線ボタンをまとめたブロック。</p>
+        </header>
+
+        <div class="contact">
+          <div class="contact__map">
+            <!-- <div class="ph ph--map" aria-hidden="true"></div>-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9881102141817!2d136.54460815028264!3d34.579167399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60046b89e51ceb47%3A0x97d6750be610ac78!2z5biM5aGX6KOF!5e0!3m2!1sja!2sjp!4v1772366025292!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="small">※GoogleMapは未埋め込み（HTML/CSSのみのため）。</p>
+          </div>
+
+          <div class="contact__info">
+            <div class="card">
+              <h3>店舗情報（ダミー）</h3>
+              <dl class="kv"> 
+                <div><dt>住所</dt><dd>〒515-0015 三重県松阪市宮町７３−５</dd></div>
+                <div><dt>営業時間</dt><dd>9:00〜20:00（年中無休）</dd></div>
+              </dl>
+
+              <div class="contact__buttons">
+                <a class="btn btn--primary btn--block" href="#">電話で相談（ダミー）</a>
+                <a class="btn btn--ghost btn--block" href="#service">サービスを見る</a>
+              </div>
+
+              <p class="small">
+                ここに「相談室へお越しください」などの説明文（ダミー）。
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">ダミー工務店</p>
+        <p class="small">外壁塗装・屋根リフォーム専門（ダミー）</p>
+      </div>
+      <div class="footer__links">
+        <a href="#service">サービス</a>
+        <a href="#works">施工事例</a>
+        <a href="#features">こだわり</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">無料相談</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottomInner">
+        <p class="small">© 2026 Dummy Co. All rights reserved.</p>
+        <a class="small" href="#top">ページ上部へ</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
