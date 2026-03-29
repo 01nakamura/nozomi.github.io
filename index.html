@@ -71,7 +71,7 @@
           <h2 class="card__title">カンタン30秒お申し込み</h2>
           <p class="card__desc">必要最低限の項目だけ。</p>
 
-          <form action="#" method="post" class="form">
+          <form action="##https://formspree.io/##" method="post">
             <label class="field">
               <span>ご相談内容</span>
               <select>
@@ -85,20 +85,20 @@
             <div class="form__row">
               <label class="field">
                 <span>お名前</span>
-                <input type="text" placeholder="山田 太郎" />
+                <input type="text" placeholder="山田 太郎" name="name">
               </label>
               <label class="field">
                 <span>電話</span>
-                <input type="tel" placeholder="090-0000-0000" />
+                <input type="tel" placeholder="090-0000-0000" name="tel">
               </label>
             </div>
 
             <label class="field">
               <span>メール</span>
-              <input type="email" placeholder="example@example.com" />
+              <input type="email" placeholder="example@example.com" name="email">
             </label>
 
-            <button class="btn btn--primary btn--block" type="button">
+            <button class="btn btn--primary btn--block" type="submit">
               無料で相談する
             </button>
 
@@ -154,7 +154,7 @@
             <div class="ph ph--thumb" aria-hidden="true"></div>
             <!--<img src="images/IMG_01.jpg" alt="外壁塗装の施工例"> -->
             <h3>外壁塗装</h3>
-            <p>劣化状態に合わせた下地処理・コーキング打ち換え・塗装工事・外壁張り替え。</p>
+            <p>劣化状態に合わせた下地処理・コーキング打ち変え・塗装工事・外壁張り替え。</p>
             <a class="link" href="#contact">相談する →</a>
           </article>
 
@@ -291,10 +291,14 @@
       <div class="container">
         <header class="section__head">
           <h2 class="section__title">口コミ</h2>
-          <p class="section__lead">評価ブロック＋レビュー一覧の見せ方。</p>
+          <!-- <p class="section__lead">評価ブロック＋レビュー一覧の見せ方。</p> -->
         </header>
-
-        <div class="reviewTop">
+        
+        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-b1fad501-e926-47e9-882e-0935c1ca6306" data-elfsight-app-lazy></div>
+        
+        <!-- <div class="reviewTop">
           <div class="reviewTop__score">
             <p class="reviewTop__label">総合評価</p>
             <p class="reviewTop__value">4.9</p>
@@ -304,7 +308,7 @@
           <div class="reviewTop__note">
             <p>実際の口コミデータは未連携。ここはデザイン用のダミー枠です。</p>
           </div>
-        </div>
+        </div> -->
 
         <div class="grid grid--3">
           <article class="card">
@@ -353,7 +357,7 @@
       <div class="container">
         <header class="section__head">
           <h2 class="section__title">無料相談 / アクセス</h2>
-          <p class="section__lead">地図・住所・導線ボタンをまとめたブロック。</p>
+          <!-- <p class="section__lead">地図・住所・導線ボタンをまとめたブロック。</p> -->
         </header>
 
         <div class="contact">
@@ -377,7 +381,7 @@
               </div>
 
               <p class="small">
-                ここに「相談室へお越しください」などの説明文。
+                ※店舗にお越しの際は、お電話にてご予約をお願いいたします。
               </p>
             </div>
           </div>
