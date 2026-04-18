@@ -81,8 +81,8 @@ a:hover{ opacity:.92; }
 }
 .brand__mark{
   width:42px;height:42px;border-radius:14px;
-  background: linear-gradient(135deg, var(--primary), #ff7b7b);
-  box-shadow: 0 10px 20px rgba(214,59,59,.25);
+  background: none;
+  box-shadow: none;
 }
 .brand__name{ display:block; font-weight:800; letter-spacing:.02em; }
 .brand__sub{ display:block; font-size:12px; color:var(--muted); margin-top:-2px; }
@@ -606,4 +606,77 @@ input:focus, select:focus{
   .hero__actions .btn {
     width: 100%; /* ボタンを横幅いっぱいに */
   }
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card img,
+.work img {
+  height: 200px;
+  object-fit: cover;
+}
+
+img {
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+/* Topbar全体 */
+.topbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* ←これ重要 */
+  gap: 10px;
+}
+
+/* 左の文章（縦になるの防ぐ） */
+.topbar__msg {
+  writing-mode: horizontal-tb !important;
+  white-space: normal;
+  word-break: keep-all; /* 日本語の変な改行防ぐ */
+  max-width: 100%;
+}
+
+/* 電話ボタン */
+.topbar__tel {
+  white-space: nowrap;
+  flex-shrink: 0; /* ←潰れ防止 */
+}
+
+/* スマホ調整 */
+@media (max-width: 768px) {
+  .topbar__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topbar__tel {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+
+.ph--logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+
+  border-radius: 12px; /* 角丸 */
+  background: #f5f5f5; /* 薄い背景（任意） */
+  padding: 8px; /* 余白あるとアイコンっぽくなる */
 }
